@@ -18,7 +18,7 @@ Formerly known as cv (Coreutils Viewer).
 
 How do you build it?
 --------------------
-
+    apt-get install build-essential libncurses5-dev pkg-config
     make && make install
 
 It depends on library ncurses, you may have to install corresponding packages (may be something like 'libncurses5-dev' or 'ncurses-devel').
